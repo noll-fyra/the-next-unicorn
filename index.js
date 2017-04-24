@@ -16,10 +16,6 @@ app.use((req, res) => {
   res.render('./index', {companies: companies, products: products})
 })
 
-// app.use((req, res) => {
-//   res.redirect('/')
-// })
-
 app.listen(port, () => {
   console.log('App is running on port: ' + port)
 })
