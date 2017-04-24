@@ -1,0 +1,46 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #ffca3a;
+  /*display: flex;*/
+  /*flex-flow: column;*/
+  /*align-items: center;*/
+}
+
+div {
+  width: 100%;
+  height: 25vh;
+  text-align: center;
+  display: block;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+  /*background-color: red;*/
+}
+
+.highlight {
+  width: 100%;
+  height: 50%;
+  background-color: #1982c4;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submit {
+  color: white;
+  background-color: #143642;
+  border: 0;
+}
+
+.submit:hover {
+  color: #dad2d8;
+}
+
+.submit:focus {
+  color: white;
+}

@@ -1,0 +1,349 @@
+[{
+    "company": "Airbnb",
+    "product": "Renting out for"
+  },
+  {
+    "company": "Google Search",
+    "product": "Search for"
+  },
+  {
+    "company": "Apple",
+    "product": "Awesome hardware for"
+  },
+  {
+    "company": "Microsoft",
+    "product": "Enterprise software for"
+  },
+  {
+    "company": "Coca-Cola",
+    "product": "Flavoured"
+  },
+  {
+    "company": "Facebook",
+    "product": "Social media for"
+  },
+  {
+    "company": "BMW",
+    "product": "Luxury mobility for"
+  },
+  {
+    "company": "IBM",
+    "product": "Big data for"
+  },
+  {
+    "company": "Disney",
+    "product": "Childlike wonder for"
+  },
+  {
+    "company": "McDonald's",
+    "product": "Fast food for"
+  },
+  {
+    "company": "Amazon",
+    "product": "Online store for"
+  },
+  {
+    "company": "Cisco",
+    "product": "Security solutions for"
+  },
+  {
+    "company": "Oracle",
+    "product": "Enterprise software for"
+  },
+  {
+    "company": "Nike",
+    "product": "Sporty lifestyle for"
+  },
+  {
+    "company": "Louis Vuitton",
+    "product": "Luxury goods for"
+  },
+  {
+    "company": "Mercedes-Benz",
+    "product": "Luxury cars for"
+  },
+  {
+    "company": "Singtel",
+    "product": "Telecommunication for"
+  },
+  {
+    "company": "American Express",
+    "product": "Credit cards for"
+  },
+  {
+    "company": "Budweiser",
+    "product": "Alcohol for"
+  },
+  {
+    "company": "Gilette",
+    "product": "Shavers for"
+  },
+  {
+    "company": "ESPN",
+    "product": "Sports coverage for"
+  },
+  {
+    "company": "Nescafe",
+    "product": "Instant coffee for"
+  },
+  {
+    "company": "H&M",
+    "product": "Affordable clothing for"
+  },
+  {
+    "company": "L'Oreal",
+    "product": "Beauty products for"
+  },
+  {
+    "company": "HSBC",
+    "product": "Banking solutions for"
+  },
+  {
+    "company": "HP",
+    "product": "Computing solutions for"
+  },
+  {
+    "company": "UPS",
+    "product": "Delivery services for"
+  },
+  {
+    "company": "Accenture",
+    "product": "Consulting services for"
+  },
+  {
+    "company": "Starbucks",
+    "product": "Premium coffee for"
+  },
+  {
+    "company": "IKEA",
+    "product": "Affordable furniture for"
+  },
+  {
+    "company": "Nestle",
+    "product": "Food solutions for"
+  },
+  {
+    "company": "Pampers",
+    "product": "Baby products for"
+  },
+  {
+    "company": "Fox",
+    "product": "Media and entertainment for"
+  },
+  {
+    "company": "Ebay",
+    "product": "Product selling for"
+  },
+  {
+    "company": "Zara",
+    "product": "Quick fashion for"
+  },
+  {
+    "company": "Cartier",
+    "product": "Luxury jewellery for"
+  },
+  {
+    "company": "Colgate",
+    "product": "Bathrooms products for"
+  },
+  {
+    "company": "Kellogg's",
+    "product": "Breakfast cereal for"
+  },
+  {
+    "company": "Red Bull",
+    "product": "Daredevil products for"
+  },
+  {
+    "company": "Sony",
+    "product": "Consumer electronics for"
+  },
+  {
+    "company": "Netflix",
+    "product": "Streaming media for"
+  },
+  {
+    "company": "Canon",
+    "product": "Cameras for"
+  },
+  {
+    "company": "Heineken",
+    "product": "Beers for"
+  },
+  {
+    "company": "Subway",
+    "product": "Fresh sandwiches for"
+  },
+  {
+    "company": "Expedia",
+    "product": "Travel solutions for"
+  },
+  {
+    "company": "Manchester United",
+    "product": "Excellent football for"
+  },
+  {
+    "company": "Hershey",
+    "product": "Chocolate for"
+  },
+  {
+    "company": "Uber",
+    "product": "Gig economy for"
+  },
+  {
+    "company": "Palantir",
+    "product": "Big data knowledge for"
+  },
+  {
+    "company": "WhatsApp",
+    "product": "Mobile communication for"
+  },
+  {
+    "company": "Dropbox",
+    "product": "Cloud storage for"
+  },
+  {
+    "company": "Stripe",
+    "product": "Payment processing for"
+  },
+  {
+    "company": "Squarespace",
+    "product": "Easy websites for"
+  },
+  {
+    "company": "Spotify",
+    "product": "Streaming music for"
+  },
+  {
+    "company": "Google Maps",
+    "product": "Place information for"
+  },
+  {
+    "company": "AIA",
+    "product": "Insurance for"
+  },
+  {
+    "company": "Y Combinator",
+    "product": "Venture capital funding for"
+  },
+  {
+    "company": "Oculus",
+    "product": "Virtual reality for"
+  },
+  {
+    "company": "Slack",
+    "product": "Enterprise communication for"
+  },
+  {
+    "company": "Deliveroo",
+    "product": "Food delivery for"
+  },
+  {
+    "company": "Docusign",
+    "product": "Document verification for"
+  },
+  {
+    "company": "Tesla",
+    "product": "Electric power for"
+  },
+  {
+    "company": "Capitaland",
+    "product": "Real estate for"
+  },
+  {
+    "company": "TypeForm",
+    "product": "Online forms for"
+  },
+  {
+    "company": "GitHub",
+    "product": "Version control for"
+  },
+  {
+    "company": "Blue Apron",
+    "product": "Home cooking for"
+  },
+  {
+    "company": "Quora",
+    "product": "Questions answered for"
+  },
+  {
+    "company": "Blizzard",
+    "product": "Computer gaming for"
+  },
+  {
+    "company": "MongoDB",
+    "product": "Databases for"
+  },
+  {
+    "company": "Razer",
+    "product": "Gaming hardware for"
+  },
+  {
+    "company": "C3",
+    "product": "IoT for"
+  },
+  {
+    "company": "DraftKings",
+    "product": "Fantasy sports for"
+  },
+  {
+    "company": "Go-Jek",
+    "product": "Convenience for"
+  },
+  {
+    "company": "Warby Parker",
+    "product": "Sunglasses for"
+  },
+  {
+    "company": "23AndMe",
+    "product": "Healthcare for"
+  },
+  {
+    "company": "Shazam",
+    "product": "Music identification for"
+  },
+  {
+    "company": "Zomato",
+    "product": "Restaurant reviews for"
+  },
+  {
+    "company": "Pinterest",
+    "product": "Photo saving for"
+  },
+  {
+    "company": "Linkedin",
+    "product": "Business connections for"
+  },
+  {
+    "company": "Salesforce",
+    "product": "Human resources for"
+  },
+  {
+    "company": "Youtube",
+    "product": "Videos for"
+  },
+  {
+    "company": "Gmail",
+    "product": "Email for"
+  },
+  {
+    "company": "Instagram",
+    "product": "Photo sharing for"
+  },
+  {
+    "company": "Twitter",
+    "product": "Social media for"
+  },
+  {
+    "company": "Weather Channel",
+    "product": "Weather information for"
+  },
+  {
+    "company": "Singapore Airlines",
+    "product": "Air travel for"
+  },
+  {
+    "company": "Adobe",
+    "product": "Media manipulation for"
+  }
+]

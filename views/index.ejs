@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>The Next Unicorn</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" type="text/css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </head>
+  <body>
+    <% var company =  companies[Math.floor(Math.random() * companies.length)] %>
+    <% var product = products[Math.floor(Math.random() * products.length)].product %>
+    <div>
+      <h1>The Next Unicorn is...</h1>
+    </div>
+    <div>
+      <h1 class="highlight"><%= company.company %>
+        x
+        <%= product %></h1>
+    </div>
+    <div>
+      <h1><%= company.product %>
+        <%= product %></h1>
+    </div>
+    <div>
+      <form action="/" method="GET">
+        <button type="submit" class="submit" autofocus>Hunt the next Unicorn</button>
+      </form>
+    </div>
+
+  </body>
+</html>
