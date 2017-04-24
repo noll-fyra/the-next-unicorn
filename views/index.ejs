@@ -13,25 +13,47 @@
       <h1>The Next Unicorn is...</h1>
     </div>
     <div>
-      <h1 class="highlight"><%= company.company %>
-        x
-        <%= product %></h1>
+      <h1 class="highlight">
+        <span class="company"><%= company.company %></span>
+        <span>&nbsp x &nbsp</span>
+        <span class="product"><%= product %></h1>
+      </span>
     </div>
     <div>
-      <h1><%= company.product %>
-        <%= product %></h1>
+      <h1>
+        <span class="company-product"><%= company.product %></span>
+        <span class="product"><%= product %></span>
+      </h1>
     </div>
     <div>
-      <form action="/" method="GET">
-        <button type="submit" class="submit" autofocus>Hunt the next Unicorn</button>
-      </form>
+      <button type="button" class="submit" autofocus>Hunt the next Unicorn</button>
     </div>
     <script>
-      var companies = '<%= companies.map((item) => { return item.company}).sort() %>'
-      var products = '<%= products.map((item) => { return item.product}).sort() %>'
+      var companies = '<%= companies.map((item) => { return item.company }).join(",") %>'.split(',')
+      var companyProducts = '<%= companies.map((item) => { return item.product }).join(",") %>'.split(',')
+      var products = '<%= products.map((item) => { return item.product}).join(",") %>'.split(',')
       console.log('Companies: ' + companies)
-      console.log('Products: ' + products)
+      console.log('Products: ' + products.sort())
       console.log('Ideas x Kenneth')
+      document.querySelector('.submit').addEventListener('click', () => {
+        updateUI()
+      })
+      document.querySelector('.submit').addEventListener('keyPress', () => {
+        updateUI()
+      })
+      function updateUI() {
+        var random = Math.floor(Math.random() * companies.length)
+        var pRandom = Math.floor(Math.random() * products.length)
+        document.querySelector('.company').textContent = companies[random].replace(/&#39;/g, "'").replace(/&amp;/g, '&')
+        document.querySelector('.company-product').textContent = companyProducts[random].replace(/&#39;/g, "'").replace(/&amp;/g, '&')
+        document.querySelectorAll('.product').forEach((item) => {
+          item.textContent = products[pRandom].replace(/&#39;/g, "'").replace(/&amp;/g, '&')
+        })
+        function randNum() {
+          return Math.floor(Math.random() * 255)
+        }
+        document.querySelector('.submit').style.backgroundColor = "rgb(" + randNum() + "," + randNum() + "," + randNum() + ")"
+      }
     </script>
   </body>
 </html>

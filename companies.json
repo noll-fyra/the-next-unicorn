@@ -3,7 +3,7 @@
     "product": "Renting out for"
   },
   {
-    "company": "Google Search",
+    "company": "Google",
     "product": "Search for"
   },
   {
@@ -361,5 +361,13 @@
   {
     "company": "WWE",
     "product": "Wrestling for"
+  },
+  {
+    "company": "Kenneth",
+    "product": "Genius level coding for"
+  },
+  {
+    "company": "General Assembly",
+    "product": "Specialised education for"
   }
 ]
